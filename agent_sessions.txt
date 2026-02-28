@@ -1,0 +1,24 @@
+Coding Agent Session Summary
+
+Tool Used:
+ChatGPT
+
+Purpose:
+Used AI assistance to accelerate development of the assignment within the 1.5 hour time limit.
+
+How AI was used:
+- Generated the initial GitHub API script to fetch PR data from the PostHog repository.
+- Helped structure the data analysis for identifying engineer impact.
+- Assisted with building the Streamlit dashboard layout.
+- Helped debug errors during data collection and deployment.
+- Provided guidance for deploying the dashboard using Streamlit Community Cloud.
+
+Human Decisions:
+- Defined the impact model using three main components:
+  1. Delivery (merged PR contributions)
+  2. Reviews (PR review activity)
+  3. Leadership (infrastructure/tooling contributions)
+- Designed the scoring logic and dashboard presentation.
+- Validated the results and deployed the final dashboard.
+
+All code was reviewed, executed locally and deployed properly.
